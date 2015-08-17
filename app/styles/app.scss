@@ -1,0 +1,43 @@
+@import 'compass';
+@import 'compass/css3';
+@import 'compass/reset';
+
+/* sprites */
+@import 'images';
+
+/* jquery-ui-tooltip-theme */
+@import 'jquery-ui-tooltip-theme';
+
+/* jScrollPane */
+@import 'jscrollpane';
+@import 'jScrollPaneTheme';
+
+/* RSmenu */
+@import 'rsmenu';
+@import 'RSmenu_QNAP_Theme';
+
+/* config */
+@import url('/v3_menu/css/qts-font.css');
+body {
+    font-family: 'QTS Font', 'Helvetica', 'Arial', 'Sans-serif', 'Verdana', 'Heiti SC', '微軟正黑體', 'Microsoft JhengHei', '微軟雅黑體', 'Microsoft YaHei', '明瞭體', 'Meiryo', '清黑體', 'Malgun Gothic', '新細明體', 'PMingLiU';
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+* {
+        box-sizing: border-box;
+        @include user-select(none);
+}
+
+#container {
+        height: 100vh;
+
+        .VideoStation {
+                height: 100vh;
+        }
+}
+
+/* view */
+@import 'Header';
+@import 'About';
+@import 'Body';

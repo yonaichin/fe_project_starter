@@ -1,0 +1,28 @@
+.ui-tooltip {
+	padding: 0px 20px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	line-height: 21px;
+	border: 1px solid #767676;
+	
+	@include background-image(linear-gradient(#fefefe, #e5e4f2));
+	font-size: 12px;
+	color: #5c5c5c;
+
+	.ui-tooltip-content {
+		word-wrap: break-word;
+		word-break: break-word;
+	}
+}
+
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}

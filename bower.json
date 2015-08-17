@@ -1,0 +1,24 @@
+{
+  "name": "vs_sharecenter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yonaichin",
+  "authors": [
+    "Olly Wang <ollywang@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.2.0",
+    "lodash": "~2.4.1",
+    "react": "~0.10.0",
+    "jquery-ui": "~1.11.2"
+  }
+}

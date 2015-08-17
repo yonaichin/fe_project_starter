@@ -1,0 +1,95 @@
+.jspContainer {
+	.jspPane {
+		width: 100% !important;
+	}
+}
+
+.jspScrollable {
+	outline: 0px;
+
+	.jspContainer {
+		.jspVerticalBar {
+			width: 12px;
+			background: #f4f4f4;
+
+			.jspTrack {
+				background: #f4f4f4;
+
+				.jspDrag {
+					width: 12px;
+					background: #cbcbcb;
+					border: 1px solid #c1c1c1;
+
+					&.jspHover {
+						background: #909090;
+						border: 1px solid #828282;
+					}
+				}
+			}
+		}
+
+		.jspHorizontalBar {
+			height: 12px;
+			background: #f4f4f4;
+
+			.jspTrack {
+				background: #f4f4f4;
+
+				.jspDrag {
+					height: 12px;
+					background: #cbcbcb;
+					border: 1px solid #c1c1c1;
+
+					&.jspHover {
+						background: #909090;
+						border: 1px solid #828282;
+					}
+				}
+			}
+		}
+	}
+
+	&.dark {
+		.jspContainer {
+			.jspVerticalBar {
+				width: 12px;
+				background: #474747;
+
+				.jspTrack {
+					background: #474747;
+
+					.jspDrag {
+						width: 12px;
+						background: #7f7f82;
+						border: 1px solid #939393;
+
+						&.jspHover {
+							background: #d6d6d6;
+							border: 1px solid #ededed;
+						}
+					}
+				}
+			}
+
+			.jspHorizontalBar {
+				height: 12px;
+				background: #474747;
+
+				.jspTrack {
+					background: #474747;
+
+					.jspDrag {
+						height: 12px;
+						background: #7f7f82;
+						border: 1px solid #939393;
+
+						&.jspHover {
+							background: #d6d6d6;
+							border: 1px solid #ededed;
+						}
+					}
+				}
+			}
+		}
+	}
+}

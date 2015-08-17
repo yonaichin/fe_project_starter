@@ -1,0 +1,29 @@
+@import 'compass/utilities/sprites';
+@import 'util/*.png';
+@include all-util-sprites(true);
+
+@import 'Header/*.png';
+@include all-Header-sprites(true);
+
+@import 'About/*.png';
+@include all-About-sprites(true);
+
+@import 'Spotlight/*.png';
+@include all-Spotlight-sprites(true);
+
+@import 'Category/*.png';
+@include all-Category-sprites(true);
+
+@import 'social/*.png';
+@include all-social-sprites(true);
+
+.sprite-img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sprite-btn {
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}

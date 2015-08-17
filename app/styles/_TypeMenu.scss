@@ -1,0 +1,54 @@
+.TypeMenu {
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+
+	.itemList {
+		margin: 0px 49px;
+		height: inherit;
+		white-space: nowrap;
+		overflow: hidden;
+
+		.item {
+			font-size: 16px;
+			color: #4d4d4d;
+			display: inline-block;
+			text-align: center;
+			padding: 0px 25px;
+
+			&:hover {
+				color: #000000;
+			}
+		}
+	}
+
+	.Category-Gallery_left {
+		position: absolute;
+		top: 0px;
+		left: 25px;
+	}
+
+	.Category-Gallery_right {
+		position: absolute;
+		top: 0px;
+		right: 25px;
+	}
+
+	.gradientBrickLeft {
+		position: absolute;
+		top: 0px;
+		left: 49px;
+		width: 25px;
+		height: 40px;
+		@include background-image(linear-gradient(to right, #ffffff, transparent));
+	}
+
+	.gradientBrickRight {
+		position: absolute;
+		top: 0px;
+		right: 49px;
+		width: 25px;
+		height: 40px;
+		@include background-image(linear-gradient(to right, transparent, #ffffff));
+	}
+}

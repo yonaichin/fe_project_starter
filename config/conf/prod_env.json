@@ -1,0 +1,5 @@
+{
+  "NODE_ENV": "production",
+  "app_title": "vs_sharecenter",
+  "API_HOST":"//api/"
+}

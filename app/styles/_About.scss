@@ -1,0 +1,98 @@
+#About {
+	position: absolute;
+	top: calc((100vh - 414px) / 2);
+	left: calc((100vw - 360px) / 2);
+	width: 360px;
+	height: 414px;
+	background: #fafafa;
+	border: 1px solid #b0b0b0;
+	z-index: 100;
+
+	.title {
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+		border-bottom: 1px solid rgba(0, 168, 163, 0.5);
+
+		.About-about_i {
+			margin-left: 18px;
+  			margin-right: 6px;
+		}
+
+		.util-btn_close_light {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+	}
+
+	.body {
+		.About-about_video_68 {
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 34px;
+		}
+
+		.stationName {
+			text-align: center;
+			margin-bottom: 14px;
+
+			.bold {
+				font-size: 25px;
+				font-weight: bold;
+				color: #00a8a3;
+			}
+
+			.light {
+				font-size: 25px;
+				font-weight: lighter;
+				color: #00a8a3;
+			}
+		}
+
+		.divider {
+			width: 180px;
+			border-bottom: 1px solid #dfdfdf;
+			margin: auto;
+			margin-bottom: 14px;
+		}
+
+		.version {
+			text-align: center;
+			font-size: 12px;
+			color: #646464;
+		}
+
+		.brand {
+			position: absolute;
+			left: 18px;
+			bottom: 24px;
+
+			.com {
+				margin-bottom: 6px;
+
+				.About-about_qnap {
+					margin-right: 6px;
+				}
+
+				.link {
+					font-size: 12px;
+					color: #646464;
+					text-decoration: underline;
+				}
+			}
+
+			.copyRight {
+				font-size: 10px;
+				color: #b1b1b1;
+			}
+		}
+
+		.About-about_QTS {
+			position: absolute;
+			right: 18px;
+			bottom: 24px;
+		}
+	}
+}

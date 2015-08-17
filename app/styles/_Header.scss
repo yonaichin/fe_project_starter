@@ -1,0 +1,176 @@
+// @media screen and (max-width: 3839px) {
+	.Header {
+		.colorBar {
+			height: 8px;
+			@include background-image(linear-gradient(to right, #0095a9, #6bffd4, #00e3ce));
+		}
+
+		.menu {
+			height: 44px;
+			line-height: 44px;
+			white-space: nowrap;
+			overflow: hidden;
+
+			.Header-frameset_videostation {
+				margin-left: 30px;
+				margin-right: 12px;
+				vertical-align: baseline;
+			}
+
+			.bold {
+				font-size: 24px;
+				font-weight: bold;
+				color: #00a8a3;
+			}
+
+			.light {
+				font-size: 24px;
+				font-weight: lighter;
+				color: #00a8a3;
+			}
+
+			.modeSwitcher {
+				margin-left: 62px;
+				cursor: pointer;
+			}
+
+			.divider {
+				float: right;
+				margin-left: 8px;
+				margin-right: 25px;
+				height: 20px;
+				border-left: 1px solid #2f2f2f;
+				margin-top: 24px;
+			}
+
+			.userName {
+				float: right;
+				margin-right: 6px;
+			}
+
+			.wrapper {
+				float: right;
+				height: 44px;
+				line-height: 44px;
+
+				&.wrapper_more {
+					margin-left: 15px;
+					margin-right: 26px;
+				}
+
+				&.wrapper_ic_admin {
+					margin-right: 15px;
+				}
+
+				&.wrapper_bg_task, &.wrapper_refresh, &.wrapper_multizone {
+					margin-right: 17px;
+				}
+
+				&.wrapper_search {
+					margin-right: 45px;
+				}
+			}
+		}
+	}
+
+	.LogoutMenu {
+		.Header-frameset_logout {
+			margin-top: -4px;
+			margin-right: 14px;
+		}
+	}
+
+	.MoreMenu {
+		.Header-frameset_quick_start, .Header-frameset_setting, .Header-frameset_help, .Header-frameset_language, .Header-frameset_about {
+			margin-top: -4px;
+			margin-right: 14px;
+		}
+	}
+// }
+
+// @media screen and (min-width: 3840px) {
+// 	.Header {
+// 		.colorBar {
+// 			height: 16px;
+// 			@include background-image(linear-gradient(to right, #0095a9, #6bffd4, #00e3ce));
+// 		}
+
+// 		.menu {
+// 			height: 88px;
+// 			line-height: 88px;
+
+// 			.Header-frameset_videostation {
+// 				margin-left: 60px;
+// 				margin-right: 24px;
+// 				vertical-align: baseline;
+// 			}
+
+// 			.bold {
+// 				font-size: 48px;
+// 				font-weight: bold;
+// 				color: #00a8a3;
+// 			}
+
+// 			.light {
+// 				font-size: 48px;
+// 				font-weight: lighter;
+// 				color: #00a8a3;
+// 			}
+
+// 			.modeSwitcher {
+// 				margin-left: 124px;
+// 				cursor: pointer;
+// 			}
+
+// 			.divider {
+// 				float: right;
+// 				margin-left: 16px;
+// 				margin-right: 50px;
+// 				height: 40px;
+// 				border-left: 2px solid #2f2f2f;
+// 				margin-top: 48px;
+// 			}
+
+// 			.userName {
+// 				float: right;
+// 				margin-right: 12px;
+// 			}
+
+// 			.wrapper {
+// 				float: right;
+// 				height: 88px;
+// 				line-height: 88px;
+
+// 				&.wrapper_more {
+// 					margin-right: 52px;
+// 				}
+
+// 				&.wrapper_ic_admin, &.wrapper_t {
+// 					margin-right: 30px;
+// 				}
+
+// 				&.wrapper_bg_task, &.wrapper_refresh, &.wrapper_multizone {
+// 					margin-right: 34px;
+// 				}
+
+// 				&.wrapper_search {
+// 					margin-right: 90px;
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.LogoutMenu {
+// 		.Header-frameset_logout {
+// 			margin-top: -8px;
+// 			margin-right: 28px;
+// 		}
+// 	}
+
+// 	.MoreMenu {
+// 		.Header-frameset_quick_start, .Header-frameset_setting, .Header-frameset_help, .Header-frameset_language, .Header-frameset_about {
+// 			margin-top: -8px;
+// 			margin-right: 28px;
+// 		}
+// 	}
+// }

@@ -1,0 +1,6 @@
+.Body {
+	height: calc(100vh - 52px);
+
+	@import 'Spotlight';
+	@import 'TypeMenu';
+}
