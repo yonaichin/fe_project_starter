@@ -1,7 +1,7 @@
 {
-  "name": "vs_sharecenter",
+  "name": "fe_project_starter",
   "version": "0.0.1",
-  "description": "vs_sharecenter",
+  "description": "fe_project_starter",
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp test",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yonaichin/"
+    "url": "https://github.com/yonaichin/fe_project_starter.git"
   },
   "author": "Olly Wang",
   "license": "MIT",
